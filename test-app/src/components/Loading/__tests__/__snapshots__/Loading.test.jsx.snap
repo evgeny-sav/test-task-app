@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders without crashing 1`] = `
+<div
+  className="Loading"
+>
+  <div
+    className="lds-roller"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;
+
+exports[`Loading should render 1`] = `
+<div
+  className="Loading"
+>
+  <div
+    className="lds-roller"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;

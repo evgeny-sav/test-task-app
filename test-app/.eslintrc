@@ -1,0 +1,46 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "defaultParams": true
+    }
+  },
+  "plugins": [
+    "jsx-a11y",
+    "import",
+    "react",
+    "react-hooks",
+    "module-resolver"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".jsx"] }],
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "prettier/prettier": ["error", {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "endOfLine": "lf",
+
+      }]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {},
+      "node": true
+    }
+  }
+}
